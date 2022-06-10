@@ -31,4 +31,5 @@
 ![7](https://user-images.githubusercontent.com/101866805/171573149-5ef9e5db-93ae-42b8-afa4-61fb1be25756.png)
 ![8](https://user-images.githubusercontent.com/101866805/171573183-d1f54f09-9cf8-44c8-bdb4-1061b5638516.png)
 <p> 4. Tuliskan script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam
-<p> 0 0 * * 7
+<p> crontab -e
+<p> 0 0 * * 7myqldump -u root -p dianadwirahayu_312010055>mahasiswa_312010055.sql
